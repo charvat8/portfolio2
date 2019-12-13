@@ -54,15 +54,35 @@ textarea {
 }
 
 /* ==========================================================================
+   Hunter's color palette
+   jacket-dark-blue: #141a30
+   jacket-medium-blue: #335089
+   sock-red: #cd0029
+   sock-red-alt: #FE2244
+   sock-white: #f0eeed
+   sock-dark-navy: #181A27
+   sock-off-white: #E5DECE
+   sock-grey: #797272
+   kanji-beige: #B4C6AE
+   sweat-red: #D5383F
+   patch-light-blue: #CDE1E8
+   patch-medium-blue: #AEC9E7
+   fuji-pillow-gold: #D6B080
+   ========================================================================== */
+
+/* ==========================================================================
    Author's custom styles
-   jacket-dark: #141a30
-   jacket-light: #335089
    ========================================================================== */
 
 
 .navbar {
   background-color: #141a30;
-  color: #335089
+  color: #B4C6AE
+  
+}
+
+.navbar-link {
+  color: #B4C6AE
 }
 /* ==========================================================================
    Helper classes
