@@ -77,12 +77,26 @@ textarea {
 
 .navbar {
   background-color: #141a30;
-  color: #B4C6AE
-  
+  color: #B4C6AE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: right;
+  height: 2em;
+
 }
 
-.navbar-link {
-  color: #B4C6AE
+.navbar a {
+  color: #B4C6AE;
+  text-align: center;
+  padding: .5em;
+  float: right
+}
+
+.tallboy {
+  margin-top: 2em;
+  height: 1000px;
+  background-color: #b3d4fc;
 }
 /* ==========================================================================
    Helper classes
